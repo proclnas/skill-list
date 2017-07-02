@@ -6,6 +6,8 @@
  * Todo:
  * - Routing
  * - More complex validations
+ * 
+ * Criado por: Rodrigo @proclnas
  */
 
 class SkillList {
@@ -247,9 +249,10 @@ class SkillList {
         }
 
         if (count($wordsFound)) {
+            $wordsUnique = array_unique(array_values($wordsFound));
             $result = array_combine(
-                array_unique(array_values($wordsFound)),
-                array_fill(0, count(array_unique(array_values($wordsFound))), 0)
+                $wordsUnique,
+                array_fill(0, count($wordsUnique), 0)
             );
 
             foreach ($wordsFound as $word) {
