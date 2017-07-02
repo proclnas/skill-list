@@ -1,10 +1,11 @@
 Skill-list
 -
 
-Ferramenta simples com o intuito de exibir quais habilidades são requisitadas para X vaga procurada em alguns sites de emprego
+Ferramenta simples com o intuito de exibir quais habilidades são requisitadas para X vaga procurada em alguns sites de empregos
 
-Requisitos:
-- php 5.6x / php-curl
+### Requisitos:
+- php 5.6 / 7
+- php-curl
 
 Engines atualmente suportadas:
 - Apinfo
@@ -31,7 +32,8 @@ Ou utilizando outros webServers de prefêrencia:
 - etc
 
 ### Preview
-todo
+...
 
 Todo:
+- Front
 - UnitTests
